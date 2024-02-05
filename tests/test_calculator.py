@@ -1,9 +1,5 @@
-"""
-testing of calc func
-"""
-from app import add
-def test_addition():
-    """
-    add test
-    """
-    assert add(2,2)==4
+'''Testing the calculator class'''
+from calculator import calculator
+
+def test_calculator():
+    assert calculator.add(2,2) == 4
