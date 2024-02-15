@@ -36,7 +36,7 @@ def test_clear_history(setup_calculations):
 def test_get_latest(setup_calculations):
     """Test getting the latest calculation."""
     latest = Calculations.get_latest()
-    assert latest.a == Decimal('20') and latest.b == Decimal('3'), "Did not get the correct latest calculation"
+    assert latest.a == Decimal('20') and latest.b == Decimal('3'), "Didnt get correct latest calculation"
 
 def test_find_by_operation(setup_calculations):
     """Test finding calculations by operation type."""
